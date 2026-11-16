@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.blend1
+*.blend2
+PERM_results/
+tests/*.log
+tests/out/
+.DS_Store
+Thumbs.db

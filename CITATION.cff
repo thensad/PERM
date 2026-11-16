@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use PERM, please cite the paper below."
+title: "PERM - Physics-Encoded Reality Modeling"
+version: "32"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/thensad/PERM_FEA_solver"
+authors:
+  - family-names: "Nuraliyev"
+    given-names: "Sadig"
+    affiliation: "Department of Civil and Environmental Engineering, Louisiana State University"
+  - family-names: "Luleci"
+    given-names: "Furkan"
+    affiliation: "Department of Civil and Environmental Engineering, Louisiana State University"
+preferred-citation:
+  type: unpublished
+  title: "Physics-encoded reality modeling for structural analysis of textured infrastructure meshes"
+  authors:
+    - family-names: "Nuraliyev"
+      given-names: "Sadig"
+    - family-names: "Luleci"
+      given-names: "Furkan"
+  year: 2026
+  notes: "Manuscript in preparation"
