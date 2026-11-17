@@ -7,6 +7,11 @@ Blender, and displacements, stresses and reactions are drawn on the mesh and wri
 
 The whole add-on is one file, [`perm.py`](perm.py).
 
+![A fused LiDAR and photogrammetry mesh of a precast girder bridge analysed with PERM: displacement magnitude in mm under three 20 kN point loads, deformation exaggerated, with the support reactions](docs/images/bridge_fused_displacement.png)
+
+*A fused LiDAR and photogrammetry mesh of a precast girder bridge, analysed with PERM: displacement magnitude
+(mm) under three 20 kN point loads (deformation exaggerated) and the support reactions on the bearing pads.*
+
 ![The example slab: von Mises map, support reactions and the PERM panel](docs/images/results_von_mises.png)
 
 ## What it does
@@ -142,8 +147,9 @@ Check the results of your own model against an independent calculation before re
 ## Limitations
 
 - Linear elastic, static, small displacements.
-- The linear solver is SciPy's sparse direct solver (SuperLU). Memory grows faster than the model: a mesh of
-  about 150 000 faces (about 940 000 degrees of freedom) did not fit in the 5.8 GB test machine used for
+- The linear solver is SciPy's sparse direct solver (SuperLU). Memory grows faster than the model: meshes of
+  about 160 000 faces (about 940 000 degrees of freedom) were solved on a Windows PC with 32 GB of memory in
+  about 10 minutes each (the solve alone), but did not fit in the 5.8 GB test machine used for
   [docs/VERIFICATION.md](docs/VERIFICATION.md).
 - Supports and custom restraints act along the global axes. Prescribed non-zero displacements are in the solver
   but not in the panel.
