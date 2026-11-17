@@ -1,5 +1,4 @@
 # PERM — Physics-Encoded Reality Modeling
-
 PERM is a Blender add-on that runs a linear static finite element analysis directly on a surface mesh:
 a reality-captured mesh (LiDAR, photogrammetry), a CAD export, or a mesh modelled in Blender. Materials,
 thicknesses, supports and loads are assigned to the mesh in Blender's own Edit Mode, the model is solved inside
